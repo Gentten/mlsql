@@ -11,7 +11,7 @@
 
     <artifactId>streamingpro-mlsql-spark_${spark.bigversion}_${scala.binary.version}</artifactId>
     <profiles>
-        
+
         <profile>
             <id>aliyun-oss</id>
             <properties>
@@ -26,7 +26,7 @@
 
             </dependencies>
         </profile>
-        
+
         <profile>
             <id>shade</id>
             <build>
@@ -538,12 +538,12 @@
             <version>3.0.0</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_${scala.binary.version}</artifactId>
-            <version>3.0.0</version>
-            <scope>test</scope>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.scalatest</groupId>-->
+        <!--            <artifactId>scalatest_${scala.binary.version}</artifactId>-->
+        <!--            <version>3.0.0</version>-->
+        <!--            <scope>test</scope>-->
+        <!--        </dependency>-->
 
         <dependency>
             <groupId>org.apache.spark</groupId>
